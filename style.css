@@ -1,0 +1,55 @@
+body, html {
+
+    font-family: serif;
+    background-color: black;
+    height: 100%;
+    padding: 0%;
+}
+
+#TopBlock {
+
+    background-image: linear-gradient(black,darkgray,gray,white,black);
+    padding: 30px;
+    display: flex;
+    direction: ltr;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#HeaderOne {
+
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+#HeaderList {
+
+    margin-left: auto;
+    list-style: none;
+    padding: 0;
+    font-size: 22.5px;
+    display: inline-flex;
+    padding: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+#HeaderList > li {
+
+    padding-left: 1em;
+}
+
+#HeaderList > li a:hover {
+
+    background-color: rgb(124, 118, 118);
+    cursor: pointer;
+}
+
+
+
