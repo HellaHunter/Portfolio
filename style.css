@@ -1,55 +1,268 @@
 body, html {
-
-    font-family: serif;
+    font-family: sans-serif;
     background-color: black;
-    height: 100%;
     padding: 0%;
+    margin: .1%;
 }
 
-#TopBlock {
+/* I made a custom scrollbar to make my black and white theme work better! */
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(10, 10, 10);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(70, 69, 69);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 26, 46);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+#TopBlock {
     background-image: linear-gradient(black,darkgray,gray,white,black);
-    padding: 30px;
+    padding: 80px;
     display: flex;
     direction: ltr;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 #HeaderOne {
-
     color: black;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 7em;
     margin-top: auto;
     margin-bottom: auto;
-    
+    text-shadow: 2px 2px 3px white;
 }
 
 #HeaderList {
-
     margin-left: auto;
     list-style: none;
     padding: 0;
-    font-size: 22.5px;
+    font-size: 2.2em;
     display: inline-flex;
     padding: 30px;
     margin-top: auto;
     margin-bottom: auto;
-    
 }
 
 #HeaderList > li {
-
-    padding-left: 1em;
+    padding-left: .9em;
+    text-shadow: 1px 1px 2px white;
+    font-weight: 550;
 }
 
 #HeaderList > li a:hover {
-
     background-color: rgb(124, 118, 118);
     cursor: pointer;
 }
 
+.content-wrapper {
+    margin-top: auto;
+}
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+  /* I used this article to help me conceptualize flexbox better, and used some code there in this project to help with set up: https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01 */
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.border-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.border-image {
+    width: 3px;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.left-body-headers {
+    color: white;
+    font-size: 2.4em;
+    height: 100%;
+    text-align: left;
+    line-height: 2em;
+    margin-right: 1em;
+}
+
+.about-me-text {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 3%;
+}
+
+.triple-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.project-row {
+    display: flex;
+    flex: row;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.project-column {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    outline: 2px solid white;
+}
+
+#Horiseon-Header {
+    text-shadow: 3px 3px 4px white;
+    font-size: 1.7em;
+    
+}
+
+#Horiseon-Img {
+    background-image: url(https://www.oit.edu/sites/default/files/styles/grid_landscape_image/public/2020/images/marketing-program-image.jpg?h=252f27fa&itok=bva_TJWb);
+    background-size: 100%;
+    image-rendering: optimizeSpeed;
+}
+
+#Horiseon-Img:hover {
+    cursor: pointer;
+    outline: 6px solid white;
+}
+
+#Github-Image {
+    background-image: url(https://forkdrop.io/images/article/github-banner@0,5x.png);
+    background-size: 100%;
+}
+
+#Github-Image:hover {
+    cursor: pointer;
+    outline: 6px solid white;
+}
+
+#GitHub-Header {
+    text-shadow: 3px 3px 4px white;
+    font-size: 1.7em;
+}
+
+#Placeholder-Image {
+    background-image: url(https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png);
+    background-size: 100%;
+}
+
+#Placeholder-Image:hover {
+    cursor: pointer;
+    outline: 6px solid white;
+    background-color: white;
+    
+}
+
+#Placeholder-Image2 {
+    background-image: url(https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png);
+    background-size: 100%;
+}
+
+#Placeholder-Image2:hover {
+    cursor: pointer;
+    outline: 6px solid white;
+}
+
+.Placeholder-Header {
+    text-shadow: 3px 3px 4px white;
+    font-size: 1.7em;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.contact-text {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .column {
+        flex: 1;
+    }
+
+    .double-column {
+        flex: 3;
+    }
+
+    .triple-column {
+        flex: 4;
+    }
+
+    .border-column {
+        flex: .15;
+    }
+
+    .project-column {
+        flex: 1;
+    }
+
+    .contact-column {
+        flex: 1;
+    }
+
+} 
+
+@media screen and (min-width: 992) {
+    .column {
+        flex: 1;
+    }
+
+    .double-column {
+        flex: 3;
+    }
+
+    .triple-column {
+        flex: 4;
+    }
+
+    .border-column {
+        flex: .15;
+    }
+
+    .project-column {
+        flex: 1;
+    }
+
+    .contact-column {
+        flex: 1;
+    }
+}
