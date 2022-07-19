@@ -7,7 +7,7 @@
         <meta charset = "UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Hunter O'Neal's Portfolio</title>
-        <link rel="stylesheet" href="reset.css">
+        
         <link rel="stylesheet" href="style.css">
 
     </head>
@@ -22,15 +22,15 @@
                 </div>
                 <div class="column">
                     <ul id="HeaderList">
-                        <li><a>About Me</a></li>
+                        <li><a href="#about-me">About Me</a></li>
 
                         <br>
 
-                        <li><a>My Work</a></li>
+                        <li><a href="#my-work">My Work</a></li>
 
                         <br>
 
-                        <li><a>Contact Me</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,15 +38,16 @@
 
         <section class="content-wrapper">
             <div class="row">
-                <div class="column">
+                <div class="one-column">
                     <header class="left-body-headers">
-                        <h2>The Lowdown On Hunter</h2>
+                        <h2 id="about-me">The Lowdown On Hunter</h2>
                     </header>
                 </div>
+                <!--
                 <div class="border-column">
                     <img class="border-image" src="https://www.neenahpaper.com/-/media/images/storefront/chips/environment-papers/environment-papers-ultra-bright-white-smooth.ashx" alt="white content seperator">
-                </div>
-                <div class="double-column">
+                </div>-->
+                <div class="three-column">
                     <article class="about-me-text">
                         <p>
                             Welcome to my professional portfolio! My name is Hunter O'Neal and I am an aspiring Full-Stack Web Developer. I am currently enrolled in the GA Tech Full-Stack Coding Bootcamp, where I am learning both the foundational and advanced techniques and information that is required to enter this field. Collected here are the various projects I have completed, and this page will be revisited as I gain further information and complete more projects.
@@ -59,7 +60,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="column">
+                <div class="one-column">
                     <image>
                         <img id="my-face" src="https://media-exp2.licdn.com/dms/image/C5622AQGp2qUVpLP_fw/feedshare-shrink_800/0/1657896377113?e=1660780800&v=beta&t=bJyt8QsJ3ALRH3Do29f2SfxKK4JkPrmgXj5lVzo4T38" alt="A black and white picture of Hunter O'Neal with glasses on, wearing a polo shirt" width="100%">
                     </image>
@@ -72,24 +73,25 @@
 
         <section>
             <div class="row">
-                <div class="column">
+                <div class="one-column">
                     <header class="left-body-headers">
-                        <h2>My Work and Projects</h2>
+                        <h2 id="my-work">My Work and Projects</h2>
                     </header>
                 </div>
+                <!--
                 <div class="border-column">
                     <img class="border-image" src="https://www.neenahpaper.com/-/media/images/storefront/chips/environment-papers/environment-papers-ultra-bright-white-smooth.ashx" alt="white content seperator">
-                </div>
-                <div class="triple-column">
+                </div>-->
+                <div class="four-column">
                     <div class="project-row">
                         <div class="project-column" id="Horiseon-Img">
-                            <h2 id="Horiseon-Header">Horiseon Project</h2>
+                            <h2 id="Horiseon-Header"><a href="https://hellahunter.github.io/Challenge_1/">Horiseon Project</a></h2>
                         </div>
                     </div>
                     <br>
                     <div class="project-row">
                         <div class="project-column" id="Github-Image">
-                            <h2 id="GitHub-Header">GitHub Page</h2>
+                            <h2 id="GitHub-Header"><a href="https://github.com/HellaHunter">GitHub Page</a></h2>
                         </div>
                         <div class="project-column" id="Placeholder-Image">
                             <h2 class="Placeholder-Header">Coming Soon</h2>
@@ -108,25 +110,33 @@
 
         <section>
             <div class="row">
-                <div class="column">
+                <div class="one-column">
                     <header class="left-body-headers">
-                        <h2>Contact Me</h2>
+                        <h2 id="contact-me">Contact Me</h2>
                     </header>
                 </div>
+                <!--
                 <div class="border-column">
                     <img class="border-image" src="https://www.neenahpaper.com/-/media/images/storefront/chips/environment-papers/environment-papers-ultra-bright-white-smooth.ashx" alt="white content seperator">
+                </div>-->
+                <div class="contact-column">
+                    
+                    <h2 class="contact-text">hunteroneal54@gmail.com</h2>
+                    <!--<img src="https://www.activlabpharma.pl/wp-content/uploads/2020/01/glow_shape_2.png" alt="">-->
                 </div>
                 <div class="contact-column">
-                    <h2 class="contact-text">My Email</h2>
+                    
+                    <h2 class="contact-text"><a href="https://www.linkedin.com/in/hunter-o-neal-7514a285/">My LinkedIn</a></h2>
+                    <!--<img src="https://icon-library.com/images/linkedin-icon-black-and-white/linkedin-icon-black-and-white-7.jpg" alt="Black and white LinkedIn image">-->
                 </div>
                 <div class="contact-column">
-                    <h2 class="contact-text">My LinkedIn</h2>
-                </div>
-                <div class="contact-column">
-                    <h2 class="contact-text">Phone Number</h2>
+                    <h2 class="contact-text">(706) 427-3787</h2>
+                    <!--<img src="https://icon-library.com/images/small-phone-icon/small-phone-icon-5.jpg">-->
                 </div>
                 <div class="contact-column">
                     <h2 class="contact-text">My Address</h2>
+                    <!--
+                    <img src="https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg">-->
                 </div>
             </div>
         </section>
