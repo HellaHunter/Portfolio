@@ -2,222 +2,223 @@ body {
     font-family: sans-serif;
     background-color: black;
     margin: 0;
-}
-
-/* I made a custom scrollbar to make my black and white theme work better! */
-
-::-webkit-scrollbar {
+  }
+  
+  /* I made a custom scrollbar to make my black and white theme work better! */
+  
+  ::-webkit-scrollbar {
     width: 20px;
-}
-
-::-webkit-scrollbar-track {
+  }
+  
+  ::-webkit-scrollbar-track {
     background: rgb(10, 10, 10);
-}
-
-::-webkit-scrollbar-thumb {
+  }
+  
+  ::-webkit-scrollbar-thumb {
     background: rgb(70, 69, 69);
-}
-
-::-webkit-scrollbar-thumb:hover {
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
     background: rgb(26, 26, 46);
-}
-
-img {
+  }
+  
+  img {
     max-width: 100%;
     display: block;
   }
-
-#TopBlock {
+  
+  #TopBlock {
     background-image: linear-gradient(black,darkgray,gray,white,black);
     padding: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-#HeaderOne {
+  }
+  
+  #HeaderOne {
     color: black;
     font-weight: 700;
     font-size: 6em;
     margin-top: auto;
     margin-bottom: auto;
     text-shadow: 2px 2px 3px white;
-}
-
-#HeaderList {
+  }
+  
+  #HeaderList {
     list-style: none;
     font-size: 2.2em;
     display: inline-flex;
     flex-wrap: wrap;
-}
-
-#HeaderList > li {
+  }
+  
+  #HeaderList > li {
     text-shadow: 1px 1px 2px white;
     font-weight: 550;
-}
-
-#HeaderList > li a:hover {
+  }
+  
+  #HeaderList > li a:hover {
     background-color: rgb(124, 118, 118);
     cursor: pointer;
-}
-
-.content-wrapper {
+  }
+  
+  .content-wrapper {
     
-}
-
-.row {
+  }
+  
+  .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-.column {
+  
+  .column {
     display: flex;
     flex-direction: column;
-}
-
+  }
+  
   /* I used this article to help me conceptualize flexbox better, and used some code there in this project to help with set up: https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01 */
-
-.one-column {
+  
+  .one-column {
     display: flex;
     flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
-}
-
-.three-column {
+  }
+  
+  .three-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 3;
-}
-
-.border-column {
+  }
+  
+  .border-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-}
-
-.border-image {
+  }
+  
+  .border-image {
     width: 3px;
     height: 100%;
     margin-left: 15px;
-}
-
-.left-body-headers {
+  }
+  
+  .left-body-headers {
     color: white;
     font-size: 2.4em;
     height: 100%;
     text-align: left;
     line-height: 2em;
     margin-right: 1em;
-}
-
-.about-me-text {
+  }
+  
+  .about-me-text {
     color: white;
     font-size: 1.5em;
     margin-right: 3%;
-}
-
-.four-column {
+  }
+  
+  .four-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 4;
-}
-
-.project-row {
+  }
+  
+  .project-row {
     display: flex;
     flex: row;
     width: 100%;
     flex-wrap: wrap;
     
-}
-
-.project-column {
+  }
+  
+  .project-column {
     display: flex;
     flex-direction: column;
     padding: 2rem;
     outline: 2px solid white;
     flex: 1;
-}
-
-#Horiseon-Header {
+  }
+  
+  #Horiseon-Header {
     text-shadow: 3px 3px 4px white;
     font-size: 1.7em;
     
-}
-
-#Horiseon-Img {
+  }
+  
+  #Horiseon-Img {
     background-image: url(https://www.oit.edu/sites/default/files/styles/grid_landscape_image/public/2020/images/marketing-program-image.jpg?h=252f27fa&itok=bva_TJWb);
     background-size: 100%;
     image-rendering: optimizeSpeed;
-}
-
-#Horiseon-Img:hover {
+  }
+  
+  #Horiseon-Img:hover {
     cursor: pointer;
     outline: 6px solid white;
-}
-
-#Github-Image {
+  }
+  
+  #Github-Image {
     background-image: url(https://forkdrop.io/images/article/github-banner@0,5x.png);
     background-size: 100%;
-}
-
-#Github-Image:hover {
+  }
+  
+  #Github-Image:hover {
     cursor: pointer;
     outline: 6px solid white;
-}
-
-#GitHub-Header {
+  }
+  
+  #GitHub-Header {
     text-shadow: 3px 3px 4px white;
     font-size: 1.7em;
-}
-
-#Placeholder-Image {
+  }
+  
+  #Placeholder-Image {
     background-image: url(https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png);
     background-size: 100%;
-}
-
-#Placeholder-Image:hover {
+  }
+  
+  #Placeholder-Image:hover {
     cursor: pointer;
     outline: 6px solid white;
     background-color: white;
     
-}
-
-#Placeholder-Image2 {
+  }
+  
+  #Placeholder-Image2 {
     background-image: url(https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png);
     background-size: 100%;
-}
-
-#Placeholder-Image2:hover {
+  }
+  
+  #Placeholder-Image2:hover {
     cursor: pointer;
     outline: 6px solid white;
-}
-
-.Placeholder-Header {
+  }
+  
+  .Placeholder-Header {
     text-shadow: 3px 3px 4px white;
     font-size: 1.7em;
-}
-
-.contact-column {
+  }
+  
+  .contact-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     flex-wrap: wrap;
-}
-
-.contact-column:hover {
+  }
+  
+  .contact-column:hover {
     cursor: pointer;
-}
-
-.contact-text {
+  }
+  
+  .contact-text {
     color: white;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-}
+  }
+  
 
 
