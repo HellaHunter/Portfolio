@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: sans-serif;
     background-color: black;
     margin: 0;
@@ -59,10 +59,6 @@ body {
   #HeaderList > li a:hover {
     background-color: rgb(124, 118, 118);
     cursor: pointer;
-  }
-  
-  .content-wrapper {
-    
   }
   
   .row {
@@ -220,8 +216,12 @@ body {
     margin-bottom: auto;
   }
   
-#MTHSY-Music {
-  background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/301522797_589003989560480_7888401387102694291_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=r_jMwLpUVeAAX8UCssP&_nc_ht=scontent-ort2-2.xx&oh=00_AT_hdgMnQ4id68A-fO9pRR-4HMcYEEEZzCP5xCYLtLk5QQ&oe=630BB7E9");
-  background-size: 100%;
-}
+  #MTHSY-Music {
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/301522797_589003989560480_7888401387102694291_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=r_jMwLpUVeAAX8UCssP&_nc_ht=scontent-ort2-2.xx&oh=00_AT_hdgMnQ4id68A-fO9pRR-4HMcYEEEZzCP5xCYLtLk5QQ&oe=630BB7E9");
+    background-size: 100%;
+  }
 
+  #Whos-App {
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/312886624_2096336700569797_8175755854356510918_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=o4R7u1QgTAAAX9nwEX9&_nc_ht=scontent-ort2-2.xx&oh=00_AT_f6KAJx0toWBNznFXl3Ax53wLEcjUXvvxl7qrZeA-9Pw&oe=635B8D54");
+    background-size: 100%;
+  }
